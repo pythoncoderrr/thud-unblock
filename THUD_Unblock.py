@@ -8,8 +8,7 @@ import wmi
 
 from injector import Injector
 from ctypes import *
-
-dll_path = os.path.join(pathlib.Path(__file__).parent.absolute(),'dll_inject.dll')
+dll_path = os.path.join(pathlib.Path(__file__).parent.absolute(),'win7x64_dll_inject.dll')
 
 def is_admin():
     try:
