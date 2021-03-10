@@ -8,6 +8,8 @@ import wmi
 
 from injector import Injector
 from ctypes import *
+
+# Path to inject file
 dll_path = os.path.join(pathlib.Path(__file__).parent.absolute(),'win7x64_dll_inject.dll')
 
 def is_admin():
@@ -21,6 +23,7 @@ class THUD_Unblock(object):
     def __init__(self):
         pass
 
+    # Just for reference what windows api function is being overrided
     @classmethod
     def unblock(cls,hwnd):
         ctypes.windll.user32.SetWindowDisplayAffinity(hwnd,0)
@@ -43,10 +46,12 @@ class THUD_Unblock(object):
         print("Full DLL path: %s" %dll_path)
 
         # Inject DLL into THUD
+        print("Injecting...")
         injector = Injector()
         injector.load_from_pid(pid)
         injector.inject_dll(dll_path)
         injector.unload()
+        print("Injectine Done.")
 
         # Countdown until exit
         for i in range(10,1,-1):
