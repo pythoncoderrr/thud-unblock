@@ -1,0 +1,24 @@
+altgraph==0.17
+appdirs==1.4.4
+asgiref==3.3.1
+distlib==0.3.1
+Django==3.1.7
+filelock==3.0.12
+future==0.18.2
+image==1.5.33
+importlib-metadata==3.4.0
+pefile==2019.4.18
+Pillow==8.1.0
+pyHook @ file:///C:/Users/nico/Desktop/pyHook-1.5.1-cp37-cp37m-win_amd64.whl
+pyinstaller==4.2
+pyinstaller-hooks-contrib==2020.11
+pytesseract==0.3.7
+pytz==2021.1
+pywin32==300
+pywin32-ctypes==0.2.0
+six==1.15.0
+sqlparse==0.4.1
+typing-extensions==3.7.4.3
+virtualenv==20.4.1
+WMI==1.5.1
+zipp==3.4.0
