@@ -8,7 +8,7 @@ KillerJohn (TurboHUD creator) did not like this. Zy Helper was opening a socket 
 passing information from THUD into the helper to press the buttons accordingly. KillerJohn disabled any kind of network feature and
 forced everyone to update. Zy changed their method to get the information out by writing directly to memory. KillerJohn disabled that too.
 Then Zy wrote pixels to the screen and screen scraped the information. KillerJohn disabled it by using SetWindowDisplayAffinity 
-(https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowdisplayaffinity). After Zy Helper, there OZ helper and
+(https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowdisplayaffinity). After Zy Helper, there was OZ helper and
 some others. In Season 22, KillerJohn made TurboHUD require administrative priveledges. This software now has full access to your machine, 
 a huge security risk. 
 
