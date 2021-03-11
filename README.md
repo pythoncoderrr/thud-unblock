@@ -23,3 +23,9 @@ Instructions:
   note: A compiled version for Windows 7 x64 and Windows 10 x64 are included, but you may need to compile your own for your machine.
 
 2. Inject the DLL into the turobhud process using an injector (https://github.com/numaru/injector)
+
+To use (download a release build):
+
+1. Launch Diablo 3
+2. Launch TurboHUD
+3. Launch thud-unblock
