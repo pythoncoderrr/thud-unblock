@@ -19,8 +19,8 @@ stream on discord.
 Instructions:
 
 1. Create a DLL from UnblockScreenshot (https://github.com/typcn/UnblockScreenshot)
-1a: You will need to download Visual C++ and compile it yourself.
-1b: A compiled version for Windows 7 x64 and Windows 10 x64 are included, but you may need to compile your own for your machine.
+  1a: You will need to download Visual C++ and compile it yourself.
+  1b: A compiled version for Windows 7 x64 and Windows 10 x64 are included, but you may need to compile your own for your machine.
 
 2. Inject the DLL into the turobhud process using an injector (https://github.com/numaru/injector)
 
