@@ -10,9 +10,6 @@ import wmi
 from injector import Injector
 from ctypes import *
 
- 
-
-
 
 def is_admin():
     try:
